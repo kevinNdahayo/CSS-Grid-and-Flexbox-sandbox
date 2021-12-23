@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* navigation menu */
+.navbar {
+  width: 100%;
+  height: 65px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 2px rgb(192, 192, 192);
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  place-content: center space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  place-content: center center;
+  gap: 25px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* user information menu */
+.information {
+  margin-top: 55px;
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  place-content: center flex-start;
+  row-gap: 25px;
+}
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+}
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  place-content: center center;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* input-fields */
+input {
+  outline: none;
+  border: 1px solid rgb(14, 14, 14);
+  padding: 8px;
+  border-radius: 5px;
+}
